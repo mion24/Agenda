@@ -11,8 +11,8 @@ namespace AgendaPva.Api.Extensions
         {
             #region Create
             builder.Services.AddTransient<
-                AgendaPva.Core.Contexts.AccountContext.UseCases.Create.Contracts.IRepository,
-                AgendaPva.Infra.Contexts.AccountContext.UseCases.Create.Repository
+                Core.Contexts.AccountContext.UseCases.Create.Contracts.IRepository,
+                Infra.Contexts.AccountContext.UseCases.Create.Repository
                 >();
             #endregion
         }

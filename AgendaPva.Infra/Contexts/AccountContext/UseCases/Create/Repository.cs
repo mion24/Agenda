@@ -1,6 +1,6 @@
 ﻿using AgendaPva.Core.Contexts.AccountContext.Entities;
 using AgendaPva.Core.Contexts.AccountContext.UseCases.Create.Contracts;
-using AgendaPva.Infra.Contexts.AccountContext.Data;
+using AgendaPva.Infra.Contexts.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

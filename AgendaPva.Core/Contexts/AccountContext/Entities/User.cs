@@ -12,6 +12,7 @@ namespace AgendaPva.Core.Contexts.AccountContext.Entities
     {
         protected User() 
         { }
+
         public User(string name, string email, Password password)
         {
             Name = name;

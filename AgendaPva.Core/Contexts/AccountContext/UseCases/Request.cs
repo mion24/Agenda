@@ -8,6 +8,4 @@ using System.Threading.Tasks;
 namespace AgendaPva.Core.Contexts.AccountContext.UseCases
 {
     public record Request(string Name, string Email, string Password) : IRequest<Response>;
-    
-    
 }

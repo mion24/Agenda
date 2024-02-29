@@ -1,5 +1,5 @@
 ﻿using AgendaPva.Core;
-using AgendaPva.Infra.Contexts.AccountContext.Data;
+using AgendaPva.Infra.Contexts.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
